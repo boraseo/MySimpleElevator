@@ -30,7 +30,7 @@ public class Elevator {
   /**
    * 탄 사람의 목적 층에 맞게 이동
    */
-  public double moving() {
+  public int moving() {
 
     if (persons.size() > 0
             && this.floor % 10 == 0) { // 각 층에 도착하면
