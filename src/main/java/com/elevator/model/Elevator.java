@@ -94,7 +94,7 @@ public class Elevator {
    *
    * @return the double
    */
-  public double getFloor() {
+  public int getFloor() {
     return this.floor;
   }
 
