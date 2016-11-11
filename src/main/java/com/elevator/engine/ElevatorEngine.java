@@ -52,7 +52,7 @@ public class ElevatorEngine {
    */
   private void run() {
     executorService.submit(() -> {
-      // 0.1초마다 갱신
+      // 0.5초마다 갱신
       while (true) {
           EmptyElevatorStop();
           elevatorMovingAndAddPerson();
