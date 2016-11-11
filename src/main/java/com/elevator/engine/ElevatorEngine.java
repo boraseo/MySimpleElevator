@@ -172,7 +172,7 @@ public class ElevatorEngine {
     System.out.println("==============================================================");
     elevators.forEach(e -> {
       System.out.println(e.getName());
-      System.out.println("Floor : " + e.getFloor() / 10);
+      System.out.println("Floor : " + e.getFloor());
       System.out.println("Persons : " + e.getPersons().size());
       System.out.println("State : " + e.getState().toString());
       System.out.println("\t" + e.getPersons());
